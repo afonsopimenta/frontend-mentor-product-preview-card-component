@@ -2,7 +2,8 @@ import { type ReactNode } from 'react';
 import { type Metadata } from 'next';
 import { Fraunces, Montserrat } from 'next/font/google';
 import clsx from 'clsx';
-import './globals.css';
+import AuthorOverlay from '@/components/AuthorOverlay';
+import '@/css/globals.css';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -19,7 +20,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Product Preview Card Component',
+  title: 'Frontend Mentor | Product preview card component',
   description:
     'Frontend Mentor challenge: Product Preview Card Component - Made by Afonso Pimenta',
 };
@@ -34,7 +35,10 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       lang='en'
       className={clsx('h-full', fraunces.variable, montserrat.variable)}
     >
-      <body className='h-full bg-cream'>{children}</body>
+      <body className='relative h-full bg-cream'>
+        {children}
+        <AuthorOverlay position='top-right' />
+      </body>
     </html>
   );
 };
