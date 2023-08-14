@@ -6,8 +6,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Links
 
-- Solution URL: [undefined](#)
-- Live Site URL: [undefined](#)
+- Solution URL: [https://github.com/afonsopimenta/frontend-mentor-product-preview-card-component](https://github.com/afonsopimenta/frontend-mentor-product-preview-card-component)
+- Live Site URL: [https://frontend-mentor-product-preview-card-component-afonsopimenta.vercel.app/](https://frontend-mentor-product-preview-card-component-afonsopimenta.vercel.app/)
 
 ## Built with
 
