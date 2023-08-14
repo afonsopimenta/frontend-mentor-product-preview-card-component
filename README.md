@@ -21,6 +21,6 @@ If you want to run this website locally, you can clone this repository and run t
 
 ## Author
 
-- Website - [Afonso Pimenta](https://afonsopimenta.github.io)
+- Website - [afonsopimenta.github.io](https://afonsopimenta.github.io)
 - Github - [@afonsopimenta](https://github.com/afonsopimenta)
 - Frontend Mentor - [@afonsopimenta](https://www.frontendmentor.io/profile/afonsopimenta)
